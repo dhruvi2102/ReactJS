@@ -282,13 +282,13 @@ const Quiz = () => {
         <Typography
           variant="h4"
           gutterBottom
-          sx={{ fontWeight: "bold", color: "black" }}
+          sx={{ fontWeight: "bold", color: "black", mt: 10 }}
         >
           Quiz
         </Typography>
 
         {/* Dropdown to select quiz category */}
-        <FormControl fullWidth sx={{ mt: 2 }}>
+        <FormControl fullWidth>
           <Select
             value={selectedCategory}
             onChange={(e) => {
