@@ -1,0 +1,7 @@
+body {
+  background-image: url("https://cdn3.vectorstock.com/i/1000x1000/55/42/question-marks-quiz-doubt-survey-faq-public-poll-vector-35935542.jpg");
+  background-size: cover; /* Cover the entire screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+}
